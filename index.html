@@ -1,0 +1,1352 @@
+<html class="">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com" rel="preconnect">
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="">
+        <link id="builder-default-fonts" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&amp;family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;display=swap" rel="stylesheet">
+        <link id="builder-font-roboto" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap" rel="stylesheet">
+        <link id="builder-font-playfair-display" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+        <link id="builder-font-poppins" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://builder.bootstrapmade.com/static/vendors/bootstrap/css/bootstrap.css?v=14">
+        <link rel="stylesheet" href="https://builder.bootstrapmade.com/static/vendors/bootstrap-icons/bootstrap-icons.css?v=14">
+        <link id="vendor-css-swiper" rel="stylesheet" href="https://builder.bootstrapmade.com/static/vendors/swiper/swiper-bundle.min.css?v=14">
+        <link id="vendor-css-glightbox" rel="stylesheet" href="https://builder.bootstrapmade.com/static/vendors/glightbox/css/glightbox.min.css?v=14">
+        <style id="css-utility-php-email-form"> /* PHP Email Form Messages
+  ------------------------------*/
+  .php-email-form .error-message {
+    display: none;
+    background: #df1529;
+    color: #ffffff;
+    text-align: left;
+    padding: 15px;
+    margin-bottom: 24px;
+    font-weight: 600;
+  }
+  
+  .php-email-form .sent-message {
+    display: none;
+    color: #ffffff;
+    background: #059652;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 24px;
+    font-weight: 600;
+  }
+  
+  .php-email-form .loading {
+    display: none;
+    background: var(--surface-color);
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 24px;
+  }
+  
+  .php-email-form .loading:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border: 3px solid var(--accent-color);
+    border-top-color: var(--surface-color);
+    animation: php-email-form-loading 1s linear infinite;
+  }
+  
+  @keyframes php-email-form-loading {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+   </style><style id="builder-fonts-styles"></style><link rel="stylesheet" href="https://builder.bootstrapmade.com/static/vendors/bootstrap/css/bootstrap.css?v=14"><link rel="stylesheet" href="https://builder.bootstrapmade.com/static/vendors/bootstrap-icons/bootstrap-icons.css?v=14"><link id="vendor-css-swiper" rel="stylesheet" href="https://builder.bootstrapmade.com/static/vendors/swiper/swiper-bundle.min.css?v=14"><link id="vendor-css-glightbox" rel="stylesheet" href="https://builder.bootstrapmade.com/static/vendors/glightbox/css/glightbox.min.css?v=14"><style id="builder-vendors-styles"></style><style id="builder-general-css">:root {  --default-font: Roboto, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, Liberation Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; --heading-font: Playfair Display; --nav-font: Poppins;--background-color: #ffffff; --default-color: #898989; --heading-color: #777777; --accent-color: #b8a07e; --surface-color: #ffffff; --contrast-color: #ffffff; --nav-color: rgba(255, 255, 255, 0.6); --nav-hover-color: #ffffff; --nav-mobile-background-color: #ffffff; --nav-dropdown-background-color: #ffffff; --nav-dropdown-color: #898989; --nav-dropdown-hover-color: #b8a07e; scroll-behavior: smooth; }body {
+    color: var(--default-color);
+    background-color: var(--background-color);
+    font-family: var(--default-font);
+  }
+  
+  a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  a:hover {
+    color: color-mix(in srgb, var(--accent-color), transparent 25%);
+    text-decoration: none;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--heading-color);
+    font-family: var(--heading-font);
+  } section, .section {
+    color: var(--default-color);
+    background-color: var(--background-color);
+    padding: 60px 0;
+    scroll-margin-top: 80px;
+    overflow: clip;
+  }
+  
+  @media (max-width: 1199px) {
+    section, .section {
+      scroll-margin-top: 56px;
+    }
+  } .section-title {
+    text-align: center;
+    padding-bottom: 60px;
+    position: relative;
+  }
+  .section-title h2 {
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 15px;
+  }
+  .section-title p {
+    margin-bottom: 0;
+  } .page-title {
+    color: var(--default-color);
+    background-color: var(--background-color);
+    padding: 160px 0 80px 0;
+    text-align: center;
+    position: relative;
+  }
+  .page-title:before {
+    content: "";
+    background-color: color-mix(in srgb, var(--background-color), transparent 50%);
+    position: absolute;
+    inset: 0;
+  }
+  .page-title h1 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .page-title .breadcrumbs ol {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .page-title .breadcrumbs ol li + li {
+    padding-left: 10px;
+  }
+  .page-title .breadcrumbs ol li + li::before {
+    content: "/";
+    display: inline-block;
+    padding-right: 10px;
+    color: color-mix(in srgb, var(--default-color), transparent 50%);
+  } .widgets-container {
+    background-color: var(--surface-color);
+    padding: 30px;
+    margin: 60px 0 30px 0;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .widget-title {
+    color: var(--heading-color);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0 0 20px 0;
+  }
+  
+  .widget-item {
+    margin-bottom: 40px;
+  }
+  
+  .widget-item:last-child {
+    margin-bottom: 0;
+  }
+  </style><style id="builder-general-styles"></style><style id="builder-color-presets-css">[data-colorpreset="cp-light-background"], .light-background { --background-color: #f3f1f0; --surface-color: #ffffff; } [data-colorpreset="cp-dark-background"], .dark-background { --background-color: #858484; --default-color: #ffffff; --heading-color: #ffffff; --surface-color: #9e9e9e; --contrast-color: #ffffff; } </style><style id="header-style"> .header {
+    color: var(--default-color);
+    background-color: var(--background-color);
+    padding: 10px 0;
+    transition: all 0.5s;
+    z-index: 997;
+  }
+  .header .logo {
+    line-height: 1;
+  }
+  .header .logo img {
+    max-height: 32px;
+    margin-right: 8px;
+  }
+  .header .logo h1 {
+    font-size: 30px;
+    margin: 0;
+    font-weight: 4700;
+    color: var(--heading-color);
+  }
+  .scrolled .header {
+    box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
+  } </style><style id="header-colors"> .header { --background-color: rgba(0, 0, 0, 0); --default-color: #ffffff; --heading-color: #ffffff; --nav-color: rgba(255, 255, 255, 0.6); --nav-hover-color: #ffffff; --nav-mobile-background-color: #ffffff; --nav-dropdown-background-color: #ffffff; --nav-dropdown-color: #898989; --nav-dropdown-hover-color: #b8a07e;  } .scrolled .header { --background-color: rgba(82, 78, 68, 0.8);  }  </style><style id="nav-style"> /* Navmenu - Desktop */
+  @media (min-width: 1200px) {
+    .navmenu {
+      padding: 0;
+    }
+    .navmenu ul {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      list-style: none;
+      align-items: center;
+    }
+    .navmenu li {
+      position: relative;
+    }
+    .navmenu a, .navmenu a:focus {
+      color: var(--nav-color);
+      padding: 18px 15px;
+      font-size: 16px;
+      font-family: var(--nav-font);
+      font-weight: 400;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      white-space: nowrap;
+      transition: 0.3s;
+    }
+    .navmenu a i, .navmenu a:focus i {
+      font-size: 12px;
+      line-height: 0;
+      margin-left: 5px;
+      transition: 0.3s;
+    }
+    .navmenu li:last-child a {
+      padding-right: 0;
+    }
+    .navmenu li:hover > a, .navmenu .active, .navmenu .active:focus {
+      color: var(--nav-hover-color);
+    }
+    .navmenu .dropdown ul {
+      margin: 0;
+      padding: 10px 0;
+      background: var(--nav-dropdown-background-color);
+      display: block;
+      position: absolute;
+      visibility: hidden;
+      left: 14px;
+      top: 130%;
+      opacity: 0;
+      transition: 0.3s;
+      border-radius: 4px;
+      z-index: 99;
+      box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    }
+    .navmenu .dropdown ul li {
+      min-width: 200px;
+    }
+    .navmenu .dropdown ul a {
+      padding: 10px 20px;
+      font-size: 15px;
+      text-transform: none;
+      color: var(--nav-dropdown-color);
+    }
+    .navmenu .dropdown ul a i {
+      font-size: 12px;
+    }
+    .navmenu .dropdown ul a:hover, .navmenu .dropdown ul .active:hover, .navmenu .dropdown ul li:hover > a {
+      color: var(--nav-dropdown-hover-color);
+    }
+    .navmenu .dropdown:hover > ul {
+      opacity: 1;
+      top: 100%;
+      visibility: visible;
+    }
+    .navmenu .dropdown .dropdown ul {
+      top: 0;
+      left: -90%;
+      visibility: hidden;
+    }
+    .navmenu .dropdown .dropdown:hover > ul {
+      opacity: 1;
+      top: 0;
+      left: -100%;
+      visibility: visible;
+    }
+  }
+  
+  /* Navmenu - Mobile */
+  @media (max-width: 1199px) {
+    .mobile-nav-toggle {
+      color: var(--nav-color);
+      font-size: 28px;
+      line-height: 0;
+      margin-right: 10px;
+      cursor: pointer;
+      transition: color 0.3s;
+    }
+    .navmenu {
+      padding: 0;
+      z-index: 9997;
+    }
+    .navmenu ul {
+      display: none;
+      list-style: none;
+      position: absolute;
+      inset: 60px 20px 20px 20px;
+      padding: 10px 0;
+      margin: 0;
+      border-radius: 6px;
+      background-color: var(--nav-mobile-background-color);
+      overflow-y: auto;
+      transition: 0.3s;
+      z-index: 9998;
+      box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    }
+    .navmenu a, .navmenu a:focus {
+      color: var(--nav-dropdown-color);
+      padding: 10px 20px;
+      font-family: var(--nav-font);
+      font-size: 17px;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      white-space: nowrap;
+      transition: 0.3s;
+    }
+    .navmenu a i, .navmenu a:focus i {
+      font-size: 12px;
+      line-height: 0;
+      margin-left: 5px;
+      width: 30px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      transition: 0.3s;
+      background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
+    }
+    .navmenu a i:hover, .navmenu a:focus i:hover {
+      background-color: var(--accent-color);
+      color: var(--contrast-color);
+    }
+    .navmenu a:hover, .navmenu .active, .navmenu .active:focus {
+      color: var(--nav-dropdown-hover-color);
+    }
+    .navmenu .active i, .navmenu .active:focus i {
+      background-color: var(--accent-color);
+      color: var(--contrast-color);
+      transform: rotate(180deg);
+    }
+    .navmenu .dropdown ul {
+      position: static;
+      display: none;
+      z-index: 99;
+      padding: 10px 0;
+      margin: 10px 20px;
+      background-color: var(--nav-dropdown-background-color);
+      border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+      box-shadow: none;
+      transition: all .5s ease-in-out;
+    }
+    .navmenu .dropdown ul ul {
+      background-color: rgba(33, 37, 41, 0.1);
+    }
+    .navmenu .dropdown > .dropdown-active {
+      display: block;
+      background-color: rgba(33, 37, 41, 0.03);
+    }
+    .mobile-nav-active {
+      overflow: hidden;
+    }
+    .mobile-nav-active .mobile-nav-toggle {
+      color: #fff;
+      position: absolute;
+      font-size: 32px;
+      top: 15px;
+      right: 15px;
+      margin-right: 0;
+      z-index: 9999;
+    }
+    .mobile-nav-active .navmenu {
+      position: fixed;
+      overflow: hidden;
+      inset: 0;
+      background: rgba(33, 37, 41, 0.8);
+      transition: 0.3s;
+    }
+    .mobile-nav-active .navmenu > ul {
+      display: block;
+    }
+  }
+  
+   </style><style id="footer-style"> .footer {
+    color: var(--default-color);
+    background-color: var(--background-color);
+    font-size: 14px;
+    text-align: center;
+    padding: 30px 0;
+    position: relative;
+  }
+  
+  .footer h3 {
+    font-size: 36px;
+    font-weight: 700;
+    position: relative;
+    padding: 0;
+    margin: 0 0 15px 0;
+  }
+  
+  .footer p {
+    font-size: 15;
+    font-style: italic;
+    padding: 0;
+    margin: 0 0 30px 0;
+  }
+  
+  .footer .social-links {
+    margin: 0 0 30px 0;
+  }
+  
+  .footer .social-links a {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--accent-color);
+    color: var(--contrast-color);
+    line-height: 1;
+    margin: 0 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+  }
+  
+  .footer .social-links a:hover {
+    background: color-mix(in srgb, var(--accent-color), transparent 20%);
+    text-decoration: none;
+  }
+  
+  .footer .copyright {
+    padding-top: 25px;
+    border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  }
+  
+  .footer .credits {
+    font-size: 13px;
+    padding-top: 5px;
+  }
+   </style><style id="scrolltop-style"> .scroll-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    z-index: 99999;
+    background-color: var(--accent-color);
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    transition: all 0.4s;
+  }
+  
+  .scroll-top i {
+    font-size: 24px;
+    color: var(--contrast-color);
+    line-height: 0;
+  }
+  
+  .scroll-top:hover {
+    background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
+    color: var(--contrast-color);
+  }
+  
+  .scroll-top.active {
+    visibility: visible;
+    opacity: 1;
+  }
+   </style><style id="section-tQGNkOoUR4-style"> .hero {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero img {
+    position: absolute;
+    inset: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .hero:before {
+    content: "";
+    background: color-mix(in srgb, var(--background-color), transparent 80%);
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+  }
+  .hero .container {
+    position: relative;
+    z-index: 3;
+  }
+  .hero h2 {
+    margin: 0;
+    font-size: 64px;
+    font-weight: 700;
+  }
+  .hero p {
+    margin: 5px 0 0 0;
+    font-size: 26px;
+  }
+  .hero p span {
+    letter-spacing: 1px;
+    border-bottom: 2px solid var(--accent-color);
+  }
+  .hero .social-links {
+    margin-top: 25px;
+  }
+  .hero .social-links a {
+    font-size: 24px;
+    display: inline-block;
+    color: color-mix(in srgb, var(--default-color), transparent 50%);
+    line-height: 1;
+    margin-right: 20px;
+    transition: 0.3s;
+  }
+  .hero .social-links a:hover {
+    color: var(--accent-color);
+  }
+  @media (max-width: 768px) {
+    .hero h2 {
+      font-size: 32px;
+    }
+    .hero p {
+      font-size: 20px;
+    }
+  } </style><style id="section-yVAbZhAUUL-style"> .about {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .about .profile-img {
+    border: 20px solid var(--accent-color);
+    padding: 0;
+  }
+  .about .profile-img img {
+    margin-top: -60px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    position: relative;
+    z-index: 1;
+  }
+  .about .content h3 {
+    font-size: 1.75rem;
+    font-weight: 700;
+  }
+  .about .content .fst-italic {
+    color: color-mix(in srgb, var(--default-color), var(--contrast-color) 50%);
+  }
+  .about .content ul {
+    list-style: none;
+    padding: 0;
+  }
+  .about .content ul li {
+    padding: 10px 0 0 0;
+    display: flex;
+  }
+  .about .content ul i {
+    color: var(--accent-color);
+    margin-right: 0.5rem;
+    line-height: 1.2;
+    font-size: 1.25rem;
+  }
+  .about .content p:last-child {
+    margin-bottom: 0;
+  } </style><style id="section-D0LhGxdkKz-style"> .services .service-item {
+    position: relative;
+    height: 100%;
+    margin-bottom: 30px;
+  }
+  .services .service-item .icon {
+    margin-right: 20px;
+  }
+  .services .service-item .icon i {
+    color: var(--accent-color);
+    font-size: 40px;
+    line-height: 0;
+    transition: 0.3s;
+  }
+  .services .service-item:hover .icon i {
+    color: var(--accent-color);
+  }
+  .services .service-item .title {
+    color: var(--heading-color);
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 20px;
+    transition: 0.3s;
+  }
+  .services .service-item .description {
+    font-size: 15px;
+    color: color-mix(in srgb, var(--default-color), transparent 30%);
+    margin-bottom: 10px;
+  }
+  .services .service-item .readmore {
+    display: flex;
+    align-items: center;
+    color: color-mix(in srgb, var(--default-color), transparent 50%);
+    transition: 0.3s;
+    font-weight: 700;
+    font-size: 14px;
+  }
+  .services .service-item .readmore i {
+    margin-left: 8px;
+  }
+  .services .service-item:hover .title, .services .service-item:hover .readmore, .services .service-item:hover .icon i {
+    color: var(--accent-color);
+  } </style><style id="section-4ijaVjLIO4-style"> .portfolio {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .portfolio .portfolio-filters {
+    padding: 0;
+    margin: 0 auto 20px auto;
+    list-style: none;
+    text-align: center;
+  }
+  .portfolio .portfolio-filters li {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 10px;
+    line-height: 1;
+    margin-bottom: 5px;
+    transition: all 0.3s ease-in-out;
+  }
+  .portfolio .portfolio-filters li:hover, .portfolio .portfolio-filters li.filter-active {
+    color: var(--accent-color);
+  }
+  .portfolio .portfolio-filters li:first-child {
+    margin-left: 0;
+  }
+  .portfolio .portfolio-filters li:last-child {
+    margin-right: 0;
+  }
+  @media (max-width: 575px) {
+    .portfolio .portfolio-filters li {
+      font-size: 14px;
+      margin: 0 5px;
+    }
+  }
+  .portfolio .portfolio-content {
+    position: relative;
+    overflow: hidden;
+  }
+  .portfolio .portfolio-content img {
+    transition: 0.3s;
+  }
+  .portfolio .portfolio-content .portfolio-info {
+    opacity: 0;
+    position: absolute;
+    inset: 0;
+    z-index: 3;
+    transition: all ease-in-out 0.3s;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+  }
+  .portfolio .portfolio-content .portfolio-info h4 {
+    font-size: 14px;
+    padding: 5px 10px;
+    font-weight: 400;
+    color: #ffffff;
+    display: inline-block;
+    background-color: var(--accent-color);
+  }
+  .portfolio .portfolio-content .portfolio-info p {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    display: inline-block;
+    left: 0;
+    right: 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  .portfolio .portfolio-content .portfolio-info .preview-link, .portfolio .portfolio-content .portfolio-info .details-link {
+    position: absolute;
+    left: calc(50% - 40px);
+    font-size: 26px;
+    top: calc(50% - 14px);
+    color: #fff;
+    transition: 0.3s;
+    line-height: 1.2;
+  }
+  .portfolio .portfolio-content .portfolio-info .preview-link:hover, .portfolio .portfolio-content .portfolio-info .details-link:hover {
+    color: var(--accent-color);
+  }
+  .portfolio .portfolio-content .portfolio-info .details-link {
+    left: 50%;
+    font-size: 34px;
+    line-height: 0;
+  }
+  .portfolio .portfolio-content:hover .portfolio-info {
+    opacity: 1;
+  }
+  .portfolio .portfolio-content:hover img {
+    transform: scale(1.1);
+  } </style><style id="section-8IyOHmeEFj-style"> .contact .info-wrap {
+    background-color: var(--surface-color);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-bottom: 30px;
+  }
+  .contact .info-item i {
+    font-size: 20px;
+    color: var(--accent-color);
+    width: 56px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+    border-radius: 50%;
+    border: 1px solid color-mix(in srgb, var(--accent-color), transparent 40%);
+    margin-right: 15px;
+  }
+  .contact .info-item h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 2px 0;
+  }
+  .contact .info-item p {
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+  }
+  .contact .info-item:hover i {
+    background: var(--accent-color);
+    color: var(--contrast-color);
+  }
+  .contact .php-email-form {
+    background-color: var(--surface-color);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  @media (max-width: 575px) {
+    .contact .php-email-form {
+      padding: 20px;
+    }
+  }
+  .contact .php-email-form input[type=text], .contact .php-email-form input[type=email], .contact .php-email-form textarea {
+    font-size: 14px;
+    padding: 10px 15px;
+    box-shadow: none;
+    border-radius: 0;
+    color: var(--default-color);
+    background-color: color-mix(in srgb, var(--background-color), transparent 50%);
+    border-color: color-mix(in srgb, var(--default-color), transparent 80%);
+  }
+  .contact .php-email-form input[type=text]:focus, .contact .php-email-form input[type=email]:focus, .contact .php-email-form textarea:focus {
+    border-color: var(--accent-color);
+  }
+  .contact .php-email-form input[type=text]::placeholder, .contact .php-email-form input[type=email]::placeholder, .contact .php-email-form textarea::placeholder {
+    color: color-mix(in srgb, var(--default-color), transparent 70%);
+  }
+  .contact .php-email-form button[type=submit] {
+    color: var(--contrast-color);
+    background: var(--accent-color);
+    border: 0;
+    padding: 10px 30px;
+    transition: 0.4s;
+    border-radius: 50px;
+  }
+  .contact .php-email-form button[type=submit]:hover {
+    background: color-mix(in srgb, var(--accent-color), transparent 20%);
+  } </style><style id="builder-components-styles"></style><style id="builder-custom-styles"></style><style id="builder-colors-styles"></style><link id="builder-main-style" rel="stylesheet" href="https://builder.bootstrapmade.com/assets/css/builder.css?v=533414175225.3.32-2025-02-22 15:00"><style id="builder-priority-styles"></style></head><body class="index-page builder-mode scrolled"><a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center active"><i class="bi bi-arrow-up-short"></i></a>
+  <header id="header" class="header d-flex align-items-center fixed-top" data-builder="header" data-js=" scrolled scroll-up-sticky">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+  
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="https://builder.bootstrapmade.com/static/img/logo.webp" alt=""> -->
+        <h1 class="sitename">Portofolio</h1> 
+      </a>
+  <!--
+      <nav id="navmenu" class="navmenu" data-builder="navmenu" data-js=" mobile-nav-toggle mobile-nav-dropdown">
+    <ul>
+      <li  spellcheck="false"><a href="#hero" class="active"  spellcheck="false">Home</a></li>
+      <li  spellcheck="false"><a href="#about" class=""  spellcheck="false">About</a></li>
+      <li  spellcheck="false"><a href="#services" class=""  spellcheck="false">Services</a></li>
+      <li  spellcheck="false"><a href="#portfolio" class=""  spellcheck="false">Portfolio</a></li>
+      <li class="dropdown"><a href="#"><span  spellcheck="false" class="">Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+        <ul>
+          <li  spellcheck="false"><a href="#"  spellcheck="false">Dropdown 1</a></li>
+          <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Deep Dropdown 1</a></li>
+              <li><a href="#">Deep Dropdown 2</a></li>
+              <li><a href="#">Deep Dropdown 3</a></li>
+              <li><a href="#">Deep Dropdown 4</a></li>
+              <li><a href="#">Deep Dropdown 5</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Dropdown 2</a></li>
+          <li><a href="#">Dropdown 3</a></li>
+          <li><a href="#">Dropdown 4</a></li>
+        </ul>
+      </li>
+      <li  spellcheck="false"><a href="#contact" class=""  spellcheck="false">Contact</a></li>
+    </ul>
+    <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+  </nav>
+    -->
+    </div>
+  </header><main class="main" id="page-sjhdfjhdsjh" data-name="index">
+    
+    <slot type="page-title"></slot>
+    
+    <div id="section-tQGNkOoUR4" class="builder-section-wrap position-relative" data-js=" typed"><section id="hero" class="hero section" data-builder="section" data-colorpreset="cp-dark-background">
+  
+    <img src="https://builder.bootstrapmade.com/static/img/template/Folio/hero-bg.jpg" alt="" data-aos="fade-in">
+    
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <h2 class=""  spellcheck="false">Muhammad Rizky<br></h2>
+      <p data-no-editable="true" class="">Saya seorang <span class="typed" data-typed-items="Designer, Developer, Freelancer, Programmer, Engineer">Freel</span><span class="typed-cursor" aria-hidden="true">|</span></p>
+        <div class="social-links">
+          <a href="https://id.linkedin.com/in/pal-mohammed-rizky-2b281035"><i class="bi bi-linkedin"></i></a>
+        </div>
+    </div>
+  
+  </section></div><div id="section-yVAbZhAUUL" class="builder-section-wrap position-relative"><section id="about" class="about section" data-builder="section">
+  
+    <div class="container section-title" data-aos="fade-up" data-builder="section-title">
+    <h2  spellcheck="false">Tentang Saya</h2>
+    
+  </div><slot type="section-title"></slot>
+    
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+    
+      <div class="row gy-4 justify-content-between">
+        <div class="col-lg-4 profile-img align-self-start">
+          <img src="https://builder.bootstrapmade.com/static/img/profile/profile-square-5.webp" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-7 content">
+          <h3  spellcheck="false">Saya seorang profesional dengan pengalaman luas di bidang Pengolahan data digital industri minyak dan Gas, pengembangan perangkat lunak, manajemen server, pengelolaan sistem CCTV, serta pengumpulan dan analisis data.&nbsp;</h3>
+          <p>
+            pengelolaan data teknis, serta pengembangan sistem berbasis web dan DevOps.
+          </p>
+          <ul>
+            <li  spellcheck="false"><i class="bi bi-check2-all"></i>Digitalisasi dan Visualisasi Data Produksi</li>
+            <li  spellcheck="false"><i class="bi bi-check2-all"></i>Analisis Ekonomi Sumur Eksplorasi Minyak &amp; Gas</li>
+            <li  spellcheck="false"><i class="bi bi-check2-all"></i> <span  spellcheck="false">Menyusun laporan keuangan dan strategi mitigasi risiko berdasarkan evaluasi skenario harga minyak dunia.</span></li>
+          </ul>
+        </div>
+      </div>
+    
+    </div>
+  
+  </section></div><div id="section-D0LhGxdkKz" class="builder-section-wrap position-relative"><section id="services" class="services section" data-builder="section">
+  
+    <div class="container section-title" data-aos="fade-up" data-builder="section-title">
+    <h2>Keahlian Utama</h2>
+    
+  </div><slot type="section-title"></slot>
+    
+    <div class="container">
+    
+      <div class="row gy-4">
+        
+        <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+          <div class="icon flex-shrink-0"><i class="bi bi-briefcase"></i></div>
+          <div>
+            <h4 class="title">DevOps &amp; Web Development:</h4>
+            <p class="description">Pengembangan dan pengelolaan sistem berbasis web untuk otomasi data dan analisis.</p>
+            <a href="service-details.html" class="readmore stretched-link"><i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+        <!-- End Service Item -->
+        
+        <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
+          <div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div>
+          <div>
+            <h4 class="title">Data Analytics &amp; Database Management</h4>
+            <p class="description"  spellcheck="false">Pemrosesan data geologi, geofisika, dan produksi untuk mendukung pengambilan keputusan bisnis.</p>
+            <a href="service-details.html" class="readmore stretched-link"><i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div><!-- End Service Item -->
+    
+        <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
+          <div class="icon flex-shrink-0"><i class="bi bi-bar-chart"></i></div>
+          <div>
+            <h4 class="title">Analisis Ekonomi Minyak &amp; Gas</h4>
+            <p class="description">Pemodelan keuangan proyek eksplorasi &amp; produksi, evaluasi investasi, dan analisis risiko.</p>
+            <a href="service-details.html" class="readmore stretched-link"></a>
+          </div>
+        </div><!-- End Service Item -->
+    
+        <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
+          <div class="icon flex-shrink-0"><i class="bi bi-binoculars"></i></div>
+          <div>
+            <h4 class="title">Manajemen Dokumen &amp; GIS</h4>
+            <p class="description">Digitalisasi dan analisis data eksplorasi dengan Google Earth, ArcGIS, dan QGIS.</p>
+            <a href="service-details.html" class="readmore stretched-link"></a>
+          </div>
+        </div><!-- End Service Item -->
+    
+        <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
+          <div class="icon flex-shrink-0"><i class="bi bi-brightness-high"></i></div>
+          <div>
+            <h4 class="title">Teknologi &amp; Tools</h4>
+            <p class="description">Python, SQL, Power BI, Microsoft Excel, Tableau, LAMP/LEMP Stack, AWS, Docker, CI/CD Pipelines.</p>
+            <a href="service-details.html" class="readmore stretched-link"></a>
+          </div>
+        </div><!-- End Service Item -->
+
+      </div>
+    
+    </div>
+  
+  </section></div><div id="section-4ijaVjLIO4" class="builder-section-wrap position-relative" data-js=" glightbox isotope-layout"><section id="portfolio" class="portfolio section" data-builder="section">
+  
+    
+  
+  
+  
+  <slot type="section-title"></slot>
+    
+    <div class="container">
+    
+      <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+    
+        <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+          
+          <li data-filter=".filter-app" class="">App</li>
+          
+          
+          
+        </ul><!-- End Portfolio Filters -->
+    
+        <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200" style="position: relative; height: 496.218px;">
+    
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app" style="position: absolute; left: 0px; top: 0px; display: none;">
+            <div class="portfolio-content h-100">
+              <img src="https://builder.bootstrapmade.com/static/img/portfolio/portfolio-1.webp" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4 class="">Website</h4>
+                <p class="">Hitung.my.id</p>
+                <a href="https://builder.bootstrapmade.com/static/img/portfolio/portfolio-1.webp" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+          </div><!-- End Portfolio Item -->
+    
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product" style="position: absolute; left: 0px; top: 0px; display: none;">
+            <div class="portfolio-content h-100">
+              <img src="https://builder.bootstrapmade.com/static/img/portfolio/portfolio-10.webp" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4 class="">Website</h4>
+                <p class="">Invt.My</p>
+                <a href="https://builder.bootstrapmade.com/static/img/portfolio/portfolio-10.webp" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+          </div><!-- End Portfolio Item -->
+    
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding" style="position: absolute; left: 0px; top: 0px; display: none;">
+            <div class="portfolio-content h-100">
+              <img src="https://builder.bootstrapmade.com/static/img/portfolio/portfolio-7.webp" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Branding 1</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="https://builder.bootstrapmade.com/static/img/portfolio/portfolio-7.webp" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+          </div><!-- End Portfolio Item -->
+    
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books" style="position: absolute; left: 0px; top: 0px;">
+            <div class="portfolio-content h-100">
+              <img src="https://builder.bootstrapmade.com/static/img/portfolio/portfolio-4.webp" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4 class="">Website</h4>
+                <p class="">Hitung.my.id</p>
+                <a href="https://builder.bootstrapmade.com/static/img/portfolio/portfolio-4.webp" title="Branding 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+          </div><!-- End Portfolio Item -->
+    
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app" style="position: absolute; left: 380px; top: 261.438px; display: none;">
+            <div class="portfolio-content h-100">
+              <img src="https://builder.bootstrapmade.com/static/img/portfolio/portfolio-2.webp" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 2</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="https://builder.bootstrapmade.com/static/img/portfolio/portfolio-2.webp" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+          </div><!-- End Portfolio Item -->
+    
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product" style="position: absolute; left: 380px; top: 0px; display: none;">
+            <div class="portfolio-content h-100">
+              <img src="https://builder.bootstrapmade.com/static/img/portfolio/portfolio-11.webp" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Product 2</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="https://builder.bootstrapmade.com/static/img/portfolio/portfolio-11.webp" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+          </div><!-- End Portfolio Item -->
+    
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding" style="position: absolute; left: 380px; top: 0px; display: none;">
+            <div class="portfolio-content h-100">
+              <img src="https://builder.bootstrapmade.com/static/img/portfolio/portfolio-8.webp" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Branding 2</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="https://builder.bootstrapmade.com/static/img/portfolio/portfolio-8.webp" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+          </div><!-- End Portfolio Item -->
+    
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books" style="position: absolute; left: 360px; top: 0px;">
+            <div class="portfolio-content h-100">
+              <img src="https://builder.bootstrapmade.com/static/img/portfolio/portfolio-5.webp" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4 class="">Website</h4>
+                <p class=""  spellcheck="false">Invt.my</p>
+                <a href="https://builder.bootstrapmade.com/static/img/portfolio/portfolio-5.webp" title="Branding 2" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+          </div><!-- End Portfolio Item -->
+    
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app" style="position: absolute; left: 760px; top: 522.876px; display: none;">
+            <div class="portfolio-content h-100">
+              <img src="https://builder.bootstrapmade.com/static/img/portfolio/portfolio-3.webp" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 3</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="https://builder.bootstrapmade.com/static/img/portfolio/portfolio-3.webp" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+          </div><!-- End Portfolio Item -->
+    
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product" style="position: absolute; left: 760px; top: 0px; display: none;">
+            <div class="portfolio-content h-100">
+              <img src="https://builder.bootstrapmade.com/static/img/portfolio/portfolio-12.webp" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Product 3</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="https://builder.bootstrapmade.com/static/img/portfolio/portfolio-12.webp" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+          </div><!-- End Portfolio Item -->
+    
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding" style="position: absolute; left: 760px; top: 0px; display: none;">
+            <div class="portfolio-content h-100">
+              <img src="https://builder.bootstrapmade.com/static/img/portfolio/portfolio-9.webp" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Branding 3</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="https://builder.bootstrapmade.com/static/img/portfolio/portfolio-9.webp" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+          </div><!-- End Portfolio Item -->
+    
+          </div><!-- End Portfolio Item -->
+    
+        </div><!-- End Portfolio Container -->
+    
+      </div>
+    
+    </div>
+  
+  </section></div><div id="section-8IyOHmeEFj" class="builder-section-wrap position-relative"><section id="contact" class="contact section" data-builder="section">
+  
+    
+  
+  
+  
+  <div class="container section-title" data-aos="fade-up" data-builder="section-title">
+    <h2  spellcheck="false">Kontak</h2>
+    <p>Untuk ada keperluan atau ingin bersilaturahmi silahkan hubungi saya.</p>
+  </div><slot type="section-title"></slot>
+    
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+    
+      <div class="info-wrap" data-aos="fade-up" data-aos-delay="200">
+        <div class="row gy-5">
+      
+          <div class="col-lg-4">
+            <div class="info-item d-flex align-items-center">
+              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h3 class="">Alamat</h3>
+                <p class="">20858 Pangkalan Susu, Kab.Langkat, Provinsi Sumatera Utara</p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+      
+          <div class="col-lg-4">
+            <div class="info-item d-flex align-items-center">
+              <i class="bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3 class="">Telepon<br></h3>
+                <p class="">+62 822 7462 3994</p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+      
+          <div class="col-lg-4">
+            <div class="info-item d-flex align-items-center">
+              <i class="bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3 class="">Email</h3>
+                <p class="">riskilsm01@gmail.com</p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+      
+        </div>
+      </div>
+    
+      <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="300">
+        <div class="row gy-4">
+    
+          <div class="col-md-6">
+            <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+          </div>
+    
+          <div class="col-md-6 ">
+            <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+          </div>
+    
+          <div class="col-md-12">
+            <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+          </div>
+    
+          <div class="col-md-12">
+            <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+          </div>
+    
+          <div class="col-md-12 text-center">
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your message has been sent. Thank you!</div>
+            
+            <button type="submit">Send Message</button>
+          </div>
+    
+        </div>
+      </form><!-- End Contact Form -->
+      
+    </div>
+  
+  </section></div><div class="justify-content-center builder-add-components-btn"><a href="" class="builder-add-section-btn d-flex align-items-center justify-content-center" title="Add Sections Here"><i class="bi bi-plus"></i> Add Sections Here</a></div><slot type="sections"></slot>
+      
+  </main><footer id="footer" class="footer" data-builder="footer" data-colorpreset="cp-light-background">
+    <div class="container">
+      
+      
+      <div class="social-links d-flex justify-content-center">
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-skype"></i></a>
+        <a href=""><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <span class="">Copyright</span> <strong class="px-1 sitename">Portofolio</strong> <span class="">All Rights Reserved</span>
+        </div>
+        
+      </div>
+    </div>
+  </footer><script id="builder-vendors-bootstrap-js" src="https://builder.bootstrapmade.com/static/vendors/bootstrap/js/bootstrap.bundle.min.js?v=14"></script><script id="builder-vendors-aos-js" src="https://builder.bootstrapmade.com/static/vendors/aos/aos.js?v=14 "></script><script id="vendor-js-typed.js" src="https://builder.bootstrapmade.com/static/vendors/typed.js/typed.umd.js?v=14"></script><script id="vendor-js-swiper" src="https://builder.bootstrapmade.com/static/vendors/swiper/swiper-bundle.min.js?v=14"></script><script id="vendor-js-glightbox" src="https://builder.bootstrapmade.com/static/vendors/glightbox/js/glightbox.min.js?v=14"></script><script id="vendor-js-imagesloaded" src="https://builder.bootstrapmade.com/static/vendors/imagesloaded/imagesloaded.pkgd.min.js?v=14"></script><script id="vendor-js-isotope-layout" src="https://builder.bootstrapmade.com/static/vendors/isotope-layout/isotope.pkgd.min.js?v=14"></script><script id="vendor-js-php-email-form" src="https://builder.bootstrapmade.com/static/vendors/php-email-form/validate.js?v=14"></script><script id="builder-vendors-js"></script><script id="js-scrolled" class="components-js">(()=>{ /**
+   * Apply .scrolled class to the body as the page is scrolled down
+   */
+  function toggleScrolled() {
+    const selectBody = document.querySelector('body');
+    const selectHeader = document.querySelector('#header');
+    if (!selectHeader.classList.contains('scroll-up-sticky') && !selectHeader.classList.contains('sticky-top') && !selectHeader.classList.contains('fixed-top')) return;
+    window.scrollY > 100 ? selectBody.classList.add('scrolled') : selectBody.classList.remove('scrolled');
+  }
+  
+  document.addEventListener('scroll', toggleScrolled);
+  window.addEventListener('load', toggleScrolled);
+  })();</script><script id="js-scroll-up-sticky" class="components-js">(()=>{ /**
+   * Scroll up sticky header to headers with .scroll-up-sticky class
+   */
+  let lastScrollTop = 0;
+  window.addEventListener('scroll', function() {
+    const selectHeader = document.querySelector('#header');
+    if (!selectHeader.classList.contains('scroll-up-sticky')) return;
+    
+    let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    
+    if (scrollTop > lastScrollTop && scrollTop > selectHeader.offsetHeight) {
+      selectHeader.style.setProperty('position', 'sticky', 'important');
+      selectHeader.style.top = `-${header.offsetHeight + 50}px`;
+    } else if (scrollTop > selectHeader.offsetHeight) {
+      selectHeader.style.setProperty('position', 'sticky', 'important');
+      selectHeader.style.top = "0";
+    } else {
+      selectHeader.style.removeProperty('top');
+      selectHeader.style.removeProperty('position');
+    }
+    lastScrollTop = scrollTop;
+  });
+  })();</script><script id="js-mobile-nav-toggle" class="components-js">(()=>{ /**
+  * Mobile nav toggle
+  */
+  const mobileNavToggleBtn = document.querySelector('.mobile-nav-toggle');
+  function mobileNavToogle() {
+    document.querySelector('body').classList.toggle('mobile-nav-active');
+    mobileNavToggleBtn.classList.toggle('bi-list');
+    mobileNavToggleBtn.classList.toggle('bi-x');
+  }
+  if( mobileNavToggleBtn) {
+    mobileNavToggleBtn.addEventListener('click', mobileNavToogle);
+  }
+  
+  /**
+  * Hide mobile nav on same-page/hash links
+  */
+  document.querySelectorAll('#navmenu a').forEach(navmenu => {
+    navmenu.addEventListener('click', () => {
+      if( document.querySelector('.mobile-nav-active') ) {
+        mobileNavToogle();
+      }
+    });
+  
+  });
+  })();</script><script id="js-mobile-nav-dropdown" class="components-js">(()=>{ /**
+  * Toggle mobile nav dropdowns
+  */
+  document.querySelectorAll('.navmenu .toggle-dropdown').forEach(navmenu => {
+    navmenu.addEventListener('click', function(e) {
+      e.preventDefault();
+      this.parentNode.classList.toggle('active');
+      this.parentNode.nextElementSibling.classList.toggle('dropdown-active');
+      e.stopImmediatePropagation();
+    });
+  });
+  })();</script><script id="js-scroll-top" class="components-js">(()=>{ /**
+   * Scroll top button
+   */
+  let scrollTop = document.querySelector('.scroll-top');
+  function toggleScrollTop() {
+    if( scrollTop ) {
+      window.scrollY > 100 ? scrollTop.classList.add('active') : scrollTop.classList.remove('active');
+    }
+  }
+  scrollTop.addEventListener('click', (e) => {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+  
+  window.addEventListener('load', toggleScrollTop);
+  document.addEventListener('scroll', toggleScrollTop);
+  })();</script><script id="js-typed" class="components-js">(()=>{ /**
+   * Init typed.js
+   */
+  const selectTyped = document.querySelector('.typed');
+  if( selectTyped ) {
+    let typed_strings = selectTyped.getAttribute('data-typed-items');
+    typed_strings = typed_strings.split(',');
+    new Typed('.typed', {
+      strings:typed_strings,
+      loop: true,
+      typeSpeed: 100,
+      backSpeed: 50,
+      backDelay: 2000
+    });
+  }
+  })();</script><script id="js-init-swiper" class="components-js">(()=>{ /**
+   * Init swiper sliders
+   */
+  function initSwiper() {
+    document.querySelectorAll(".init-swiper").forEach(function (swiperElement) {
+      let config = JSON.parse(
+        swiperElement.querySelector(".swiper-config").innerHTML.trim()
+      );
+  
+      if (swiperElement.classList.contains("swiper-tab")) {
+        initSwiperWithCustomPagination(swiperElement, config);
+      } else {
+        new Swiper(swiperElement, config);
+      }
+    });
+  }
+  
+  window.addEventListener("load", initSwiper);
+  })();</script><script id="js-glightbox" class="components-js">(()=>{ /**
+  * Initiate glightbox
+  */
+  const glightbox = GLightbox({
+    selector: '.glightbox'
+  });
+  })();</script><script id="js-isotope-layout" class="components-js">(()=>{ /**
+   * Init isotope layout and filters
+   */
+  document.querySelectorAll('.isotope-layout').forEach(function(isotopeItem) {
+    let layout = isotopeItem.getAttribute('data-layout') ?? 'masonry';
+    let filter = isotopeItem.getAttribute('data-default-filter') ?? '*';
+    let sort = isotopeItem.getAttribute('data-sort') ?? 'original-order';
+  
+    let initIsotope;
+    imagesLoaded( isotopeItem.querySelector('.isotope-container'), function() {
+      initIsotope = new Isotope( isotopeItem.querySelector('.isotope-container'), {
+        itemSelector: '.isotope-item',
+        layoutMode: layout,
+        filter: filter,
+        sortBy: sort
+      });
+    });
+  
+    isotopeItem.querySelectorAll('.isotope-filters li').forEach(function(filters) {
+      filters.addEventListener('click', function(){
+        isotopeItem.querySelector('.isotope-filters .filter-active').classList.remove('filter-active');
+        this.classList.add('filter-active');
+        initIsotope.arrange({ filter: this.getAttribute('data-filter') });
+        if (typeof aosInit === 'function') { 
+          aosInit(); 
+        }
+      }, false);
+    });
+  
+  });
+  })();</script><script id="builder-js"></script><style data-typed-js-cursor-css="true">
+          .typed-cursor{
+            opacity: 1;
+          }
+          .typed-cursor.typed-cursor--blink{
+            animation: typedjsBlink 0.7s infinite;
+            -webkit-animation: typedjsBlink 0.7s infinite;
+                    animation: typedjsBlink 0.7s infinite;
+          }
+          @keyframes typedjsBlink{
+            50% { opacity: 0.0; }
+          }
+          @-webkit-keyframes typedjsBlink{
+            0% { opacity: 1; }
+            50% { opacity: 0.0; }
+            100% { opacity: 1; }
+          }
+        </style></body></html>
